@@ -19,6 +19,13 @@
         path = ./ruby;
         description = "A flake for Ruby projects";
       };
+
+      devShell = {
+        path = ./dev-shell;
+        description =
+          "A devShell flake for cross-platform use of 'nix develop'";
+      };
+
     };
 
     defaultTemplate = self.templates.trivial;
