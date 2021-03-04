@@ -15,6 +15,10 @@
         description = "A NixOS container running apache-httpd";
       };
 
+      ruby = {
+        path = ./ruby;
+        description = "A flake for Ruby projects";
+      };
     };
 
     defaultTemplate = self.templates.trivial;
