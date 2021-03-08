@@ -1,0 +1,97 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1614852965,
+        "narHash": "sha256-BhfSQiyapI/zcodA09UnSpAe28rKVikN+PqmPRSmhYo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "16fc9eb7364942f81d466cf29ab4e1623fc6d74f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-20.09",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-ruby": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rvm-patchsets": "rvm-patchsets"
+      },
+      "locked": {
+        "lastModified": 1614933067,
+        "narHash": "sha256-CUiNfXalbJq2C9OLYx5Y9UJTCPCzkUnzvJuywNc4T9k=",
+        "owner": "bobvanderlinden",
+        "repo": "nixpkgs-ruby",
+        "rev": "5fd47ca2413fbd2fe1aac04e15efa19e3765579e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bobvanderlinden",
+        "repo": "nixpkgs-ruby",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-ruby": "nixpkgs-ruby"
+      }
+    },
+    "rvm-patchsets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608885896,
+        "narHash": "sha256-Sa1HpkkGK2Lp0IQ3ARFDsVcfsX+bYoB1MC7yDBVEAE4=",
+        "owner": "skaes",
+        "repo": "rvm-patchsets",
+        "rev": "28c6469ce841ff3033c376e78a7043009a3bdc5c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skaes",
+        "repo": "rvm-patchsets",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
